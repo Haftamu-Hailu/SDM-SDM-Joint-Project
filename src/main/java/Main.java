@@ -9,7 +9,8 @@ import org.neo4j.driver.GraphDatabase;
 import org.neo4j.driver.Session;
 
 public class Main {
-    static String HADOOP_COMMON_PATH = "C:\\Users\\Tamara Bojanic\\Desktop\\UPC\\BDM-SDM-joint-project\\src\\main\\resources\\winutils";
+    static String HADOOP_COMMON_PATH = "C:\\Users\\Haftish\\Desktop\\UPC\\BDM-SDM-joint-project\\src\\main\\resources\\winutils";//or "C:\\winutils";
+
 
     public static void main(String[] args) {
         System.setProperty("hadoop.home.dir", HADOOP_COMMON_PATH);
